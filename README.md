@@ -69,7 +69,7 @@
 ### Fedora  
 (ⲫⲉⲇⲱⲣⲁ)
 
-**1. Copy the symbol file:**
+**1. Copy the symbol file:**  
 ⲁⲣⲉ ⲛⲁⲕ ⲡⲓⲙⲉⲧⲉⲥⲟⲩ ⲙ̄ⲡⲓⲕⲉⲓⲃⲟⲣⲇ ⲉⲩⲱⲧ ⲛ̄ⲧⲁⲕⲕⲟⲣⲟ ⲉⲃⲟⲗ:
 
 `sudo cp cop /usr/share/X11/xkb/symbols/`
