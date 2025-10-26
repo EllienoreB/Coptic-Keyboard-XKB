@@ -143,3 +143,44 @@ Edit `/usr/share/X11/xkb/rules/evdev.xml` and add inside `<layoutList>`:
 
 Look for `layout: cop`.
 ⲁⲣⲉ ⲧⲁⲕⲥⲱⲧⲙ ⲛ̄ⲧⲉ ⲡⲓⲙⲉⲧⲉⲥⲟⲩ `layout: cop`.
+
+---
+
+### Tips  
+(ⲡⲓⲥⲩⲙⲃⲟⲩⲗⲏ)
+
+**Overline marks:**  
+Use **Right Alt (AltGr) + -** or **Right Alt (AltGr) + =** to insert the overline used in Coptic sacred names and abbreviations.  
+Example:  
+- AltGr + - → ⲛ̅  
+- AltGr + = → ⲛ̄  
+
+**AltGr number row (Coptic numerals):**  
+| Key | Output |
+|:----|:-------|
+| AltGr + 1 | ⳁ |
+| AltGr + 2 | Ⳃ |
+| AltGr + 3 | ⳃ |
+| AltGr + 4 | Ⳅ |
+| AltGr + 5 | ⳅ |
+| AltGr + 6 | Ⳇ |
+| AltGr + 7 | ⳇ |
+| AltGr + 8 | Ⳉ |
+| AltGr + 9 | ⳉ |
+| AltGr + 0 | ⳓ |
+
+**AltGr punctuation and symbols:**  
+| Key | Output |
+|:----|:-------|
+| AltGr + ; | ⳻ |
+| AltGr + ' | ⳽ |
+| AltGr + / | ⳺ |
+| AltGr + < | ⳿ |
+| AltGr + > | ⳹ |
+| AltGr + ? | ⳺ |
+| AltGr + Shift + ; | ⳼ |
+| AltGr + Shift + " | ⳾ |
+| AltGr + Shift + ? | ⳻ |
+
+> ⲡⲁⲓ ⲕⲉⲓⲃⲟⲣⲇ ⲛ̄ⲧⲁⲕⲟⲣⲟ ⲛⲙ̄ⲙⲁ ⲛ̄ⲧⲉ ⲡⲓⲅⲣⲓⲕ ⲛⲉⲣⲓ ⲁⲩⲱ ⲛ̄ⲧⲁⲕⲧⲱⲛ ⲉⲩⲱⲧ ⲉⲡⲓⲕⲟⲡⲧⲓⲕ ⲛⲉⲣⲓ ⲙ̄ⲡⲉⲩⲛⲟⲙⲟⲥ ⲛⲧⲉ ⲡⲓⲗⲟⲅⲟⲥ.  
+*This keyboard extends the modern Greek layout to include full Coptic letters, numerals, and overline marks.*
