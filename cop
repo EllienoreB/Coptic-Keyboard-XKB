@@ -1,6 +1,4 @@
-// Greek (Coptic) layout for US keyboard
-// Mirrors "Greek (no dead keys)" positions exactly.
-// Every Greek letter replaced with its Coptic Unicode equivalent.
+// Egyptian Copti layout
 // Place this file in /usr/share/X11/xkb/symbols/cop
 // Made by Olivier Legault (EllienoreB) with love and remembrance for the land and legacy of Cleopatra VII.
 // In the quiet between keystrokes, she still speaks.
@@ -25,42 +23,42 @@ xkb_symbols "coptic" {
     key <AE12> { [ equal, plus, U0304, U0351 ] };      // = + ̄ ͑
 
 
-    // Top row ; ς ε ρ τ υ θ ι ο π
-    key <AD01> { [ semicolon, colon, U2CF9, U2CFA ] };  // ´ : ⳹ ⳺
-    key <AD02> { [ U03ED, U03EC ] };   // ϭ Ϭ
-    key <AD03> { [ U2C89, U2C88 ] };   // ⲉ Ⲉ
-    key <AD04> { [ U2CA3, U2CA2 ] };   // ⲣ Ⲣ
-    key <AD05> { [ U2CA7, U2CA6 ] };   // ⲧ Ⲧ
-    key <AD06> { [ U2CA9, U2CA8 ] };   // ⲩ Ⲩ
-    key <AD07> { [ U2C91, U2C90 ] };   // ⲑ Ⲑ
-    key <AD08> { [ U2C93, U2C92 ] };   // ⲓ Ⲓ
-    key <AD09> { [ U2C9F, U2C9E ] };   // ⲟ Ⲟ
-    key <AD10> { [ U2CA1, U2CA0 ] };   // ⲡ Ⲡ
+    // Top row 
+    key <AD01> { [ U03ED, U03EC, U2CF9, U2CFA ] };  // ϭ Ϭ ⳹ ⳺ (Shei)
+    key <AD02> { [ U03E3, U03E2 ] };   // ϣ Ϣ (Shai)
+    key <AD03> { [ U2C89, U2C88 ] };   // ⲉ Ⲉ (Ei)
+    key <AD04> { [ U2CA3, U2CA2 ] };   // ⲣ Ⲣ (Ro)
+    key <AD05> { [ U2CA7, U2CA6 ] };   // ⲧ Ⲧ (Ti)
+    key <AD06> { [ U2CAB, U2CAA ] };   // ⲩ Ⲩ (Upsilon)
+    key <AD07> { [ U2C91, U2C90 ] };   // ⲑ Ⲑ (Theta)
+    key <AD08> { [ U2C93, U2C92 ] };   // ⲓ Ⲓ (Iota)
+    key <AD09> { [ U2C9F, U2C9E ] };   // ⲟ Ⲟ (O)
+    key <AD10> { [ U2CA1, U2CA0 ] };   // ⲡ Ⲡ (Pi)
     key <AD11> { [ bracketleft, braceleft ] };
     key <AD12> { [ bracketright, braceright ] };
 
-    // Home row α σ δ φ γ η ξ κ λ ´
-    key <AC01> { [ U2C81, U2C80 ] };   // ⲁ Ⲁ
-    key <AC02> { [ U2CA5, U2CA4 ] };   // ⲥ Ⲥ
-    key <AC03> { [ U2C87, U2C86 ] };   // ⲇ Ⲇ
-    key <AC04> { [ U2CAB, U2CAA ] };   // ⲫ Ⲫ
-    key <AC05> { [ U2C85, U2C84 ] };   // ⲅ Ⲅ
-    key <AC06> { [ U2C8F, U2C8E ] };   // ⲏ Ⲏ
-    key <AC07> { [ U2C9D, U2C9C ] };   // ⲝ Ⲝ
-    key <AC08> { [ U2C95, U2C94 ] };   // ⲕ Ⲕ
-    key <AC09> { [ U2C97, U2C96 ] };   // ⲗ Ⲗ
+    // Home row
+    key <AC01> { [ U2C81, U2C80 ] };   // ⲁ Ⲁ (Alpha)
+    key <AC02> { [ U2CA5, U2CA4 ] };   // ⲥ Ⲥ (S)
+    key <AC03> { [ U2C87, U2C86 ] };   // ⲇ Ⲇ (D)
+    key <AC04> { [ U03E5, U03E4 ] };   // ϥ Ϥ (Fei)
+    key <AC05> { [ U2C85, U2C84 ] };   // ⲅ Ⲅ (Gamma)
+    key <AC06> { [ U2C8F, U2C8E ] };   // ⲏ Ⲏ (Heta)
+    key <AC07> { [ U03EB, U03EA ] };   // ϫ Ϫ (Jandja)
+    key <AC08> { [ U2C95, U2C94 ] };   // ⲕ Ⲕ (Kappa)
+    key <AC09> { [ U2C97, U2C96 ] };   // ⲗ Ⲗ (Laula)
     key <AC10> { [ U00B4, U00A8, U2CFB, U2CFC ] }; // ´ ¨ ⳻ ⳼
     key <AC11> { [ apostrophe, quotedbl, U2CFD, U2CFE ] }; // ' " ⳽ ⳾
     key <BKSL> { [ backslash, bar ] };
 
-    // Bottom row ζ χ ψ ω β ν μ
-    key <AB01> { [ U2C8D, U2C8C ] };   // ⲍ Ⲍ
-    key <AB02> { [ U2CAD, U2CAC ] };   // ⲭ Ⲭ
-    key <AB03> { [ U2CAF, U2CAE ] };   // ⲯ Ⲯ
-    key <AB04> { [ U2CB1, U2CB0 ] };   // ⲱ Ⲱ
-    key <AB05> { [ U2C83, U2C82 ] };   // ⲃ Ⲃ
-    key <AB06> { [ U2C9B, U2C9A ] };   // ⲛ Ⲛ
-    key <AB07> { [ U2C99, U2C98 ] };   // ⲙ Ⲙ
+    // Bottom row 
+    key <AB01> { [ U2C8D, U2C8C ] };   // ⲍ Ⲍ (Zeta)
+    key <AB02> { [ U2CAD, U2CAC ] };   // ⲭ Ⲭ (Khi)
+    key <AB03> { [ U03E9, U03E8 ] };   // Ϩ ϩ (Hori - H̱)
+    key <AB04> { [ U2CB1, U2CB0 ] };   // ⲱ Ⲱ (Oou - long o)
+    key <AB05> { [ U2C83, U2C82 ] };   // ⲃ Ⲃ (Beta)
+    key <AB06> { [ U2C9B, U2C9A ] };   // ⲛ Ⲛ (Ni)
+    key <AB07> { [ U2C99, U2C98 ] };   // ⲙ Ⲙ (Mi)
     key <AB08> { [ comma, less, U2CFF ] };   // , < ⳿
     key <AB09> { [ period, greater, U2CF9 ] }; // . > ⳹
     key <AB10> { [ slash, question, U2CFA, U2CFB ] }; // / ? ⳺ ⳻
