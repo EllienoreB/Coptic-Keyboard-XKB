@@ -3,6 +3,7 @@
 // Every Greek letter replaced with its Coptic Unicode equivalent.
 // Place this file in /usr/share/X11/xkb/symbols/cop
 // Made by Olivier Legault (EllienoreB) with love and remembrance for the land and legacy of Cleopatra VII.
+// In the quiet between keystrokes, she still speaks.
 
 partial alphanumeric_keys
 xkb_symbols "coptic" {
@@ -26,7 +27,7 @@ xkb_symbols "coptic" {
 
     // Top row ; ς ε ρ τ υ θ ι ο π
     key <AD01> { [ semicolon, colon, U2CF9, U2CFA ] };  // ´ : ⳹ ⳺
-    key <AD02> { [ U2CA5, U2CA4 ] };   // ⲥ Ⲥ
+    key <AD02> { [ U03ED, U03EC ] };   // ϭ Ϭ
     key <AD03> { [ U2C89, U2C88 ] };   // ⲉ Ⲉ
     key <AD04> { [ U2CA3, U2CA2 ] };   // ⲣ Ⲣ
     key <AD05> { [ U2CA7, U2CA6 ] };   // ⲧ Ⲧ
